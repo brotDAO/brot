@@ -4569,6 +4569,11 @@ hardhat-abi-exporter@^2.2.1:
   resolved "https://registry.yarnpkg.com/hardhat-abi-exporter/-/hardhat-abi-exporter-2.2.1.tgz#98ad242d08987d34416c6315729f36f9d544e4fa"
   integrity sha512-Um7+RPvJEj+OqWjPoPKlTTkO1Akr10pqpgMk8Pw2jz2wrGv5XQBGNW5aQgGVDUosYktUIWDaEhcwwFKbFsir9A==
 
+hardhat-deploy-ethers@^0.3.0-beta.10:
+  version "0.3.0-beta.10"
+  resolved "https://registry.yarnpkg.com/hardhat-deploy-ethers/-/hardhat-deploy-ethers-0.3.0-beta.10.tgz#bccfcf635d380bbab3638960f6739fe4d396fc5f"
+  integrity sha512-TeyriUshRZ7XVHOjMsDtTozIrdwLf3Bw+oZRYNhXdG/eut5HeDhjUFPfRlG7TI1lSLvkcB5dt7OxOtPYKDOxTg==
+
 hardhat-deploy@^0.8.9:
   version "0.8.9"
   resolved "https://registry.yarnpkg.com/hardhat-deploy/-/hardhat-deploy-0.8.9.tgz#fa13f104a2aba85d6ce0043adbd683e0da026df9"

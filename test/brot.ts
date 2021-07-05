@@ -1,6 +1,6 @@
 // tests for bread token contract
 
-import { waffle, ethers } from "hardhat";
+import { waffle, ethers, deployments, getNamedAccounts } from "hardhat";
 import chai from "chai";
 import chaiAsPromised from 'chai-as-promised';
 
@@ -42,7 +42,7 @@ describe("Brot Token Contract", () => {
         )) as unknown as Brot;
 
         
-
+        
 
     });
 
@@ -171,7 +171,7 @@ describe("Brot Token Contract", () => {
 
 
 
-    //TODO: thoroughly test each function of the contract
+    //TODO: thoroughly test accesscontrol
 
 
     

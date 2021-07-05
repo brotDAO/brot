@@ -3,6 +3,7 @@ import "@nomiclabs/hardhat-waffle";
 import '@typechain/hardhat';
 import '@nomiclabs/hardhat-ethers';
 import 'hardhat-deploy';
+import 'hardhat-deploy-ethers';
 import 'hardhat-abi-exporter';
 import 'hardhat-spdx-license-identifier';
 import 'tsconfig-paths/register';
@@ -91,6 +92,11 @@ const config: HardhatUserConfig = {
         },
       },
     ],
+  },
+
+  namedAccounts: {
+    deployer: 0,
+    tokenOwner: 0x1CD4935Eb3d7291b2B0782F9aF7525564D277E7B,
   },
 
   mocha: {
