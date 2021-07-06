@@ -7,6 +7,8 @@ import 'hardhat-deploy-ethers';
 import 'hardhat-abi-exporter';
 import 'hardhat-spdx-license-identifier';
 import 'tsconfig-paths/register';
+import 'solidity-coverage';
+import 'hardhat-gas-reporter';
 
 // key setup
 const fs = require('fs');
